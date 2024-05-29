@@ -28,7 +28,7 @@ websocket.onmessage = function (ev) {
                 li.className = "repaly";
                 li.innerHTML = `<span id="msgID" hidden>${id_message}</span>
                                 <span id="userID" hidden>${id_user}</span>
-                                <div class="dropup-center dropup">
+                                <div class="dropup-center dropstart">
                                 <p id="msg-${id_message}-value" data-bs-toggle="dropdown">${user_message}</p>
                                 <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" id="msg-delete" href="#">Удалить сообщение</a></li>
