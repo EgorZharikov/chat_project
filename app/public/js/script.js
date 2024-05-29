@@ -222,7 +222,7 @@ function get_room_data(elem) {
             li.className = "repaly";
             li.innerHTML = `<span id="msgID-${value.id}" hidden></span>
                                 <span id="userID" hidden>${value.id_user}</span>
-                                <div class="dropup-center dropup">
+                                <div class="dropup-center dropstart">
                                 <p id="msg-${value.id}-value" data-bs-toggle="dropdown">${value.message}</p>
                                 <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" id="msg-delete" href="#">Удалить сообщение</a></li>
