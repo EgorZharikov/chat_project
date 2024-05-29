@@ -1,0 +1,88 @@
+.profile-card {
+    height: 100vh;
+    display: flexbox;
+    align-items: center;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+#inputFile {
+    display: none;
+}
+
+.add-room-img {
+    height: 60px;
+    user-select: none;
+}
+
+#imputFileLabel {
+    cursor: pointer;
+}
+
+#preview {
+    display: none;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    align-items: center;
+    text-align: center;
+}
+
+.avatar-img {
+    display: flex;
+    justify-content: center;
+}
+
+.edit-name {
+    display: flex;
+    justify-content: center;
+}
+
+.select-btn {
+    cursor: pointer;
+}
+
+.edit {
+    width: auto;
+    height: 25px;
+
+}
+
+#email {
+    max-width: 230px;
+}
+
+#inputGroup {
+    justify-content: center;
+}
+
+#delete {
+    background-color: #ffebe6;
+}
+
+#user-name {
+    overflow: hidden;
+    max-width: 150px;
+    white-space: nowrap;
+    margin: 0;
+    text-overflow: ellipsis;
+}
+
+.log {
+    display: none;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.profile-header img {
+    width: auto;
+    height: 40px;
+}

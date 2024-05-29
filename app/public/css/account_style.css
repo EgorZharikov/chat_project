@@ -1,0 +1,9 @@
+.account-card {
+    height: 100vh;
+}
+
+.account-logo {
+    display: flexbox;
+    align-items: center;
+    text-align: center;
+}
